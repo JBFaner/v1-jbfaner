@@ -68,8 +68,8 @@ export default function Navbar() {
               src="/images/projects/pic.jpg"
               alt="JB"
               fill
-              className="object-cover"
               sizes="40px"
+              className="object-cover"
             />
           </motion.a>
 
