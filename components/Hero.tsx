@@ -227,33 +227,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Floating badge — experience */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 1.4 }}
-            className="absolute -bottom-4 -left-6 hidden xl:flex items-center gap-3 px-4 py-3 rounded-xl"
-            style={{
-              background: "var(--bg-surface)",
-              border: "1px solid var(--border)",
-              boxShadow: "0 8px 24px rgba(0,0,0,0.3)",
-            }}
-          >
-            <div
-              className="w-8 h-8 rounded-lg flex items-center justify-center text-base"
-              style={{ background: "var(--accent-glow)" }}
-            >
-              🏗️
-            </div>
-            <div>
-              <p className="text-xs font-semibold" style={{ color: "var(--text-primary)" }}>
-                Systems Built
-              </p>
-              <p className="text-xs" style={{ color: "var(--accent-light)" }}>
-                POS · Marketplace · LGU
-              </p>
-            </div>
-          </motion.div>
+
         </motion.div>
       </div>
 
